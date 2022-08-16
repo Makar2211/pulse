@@ -1,0 +1,29 @@
+.consultation{
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../../img/bg2.jpg) center (center/cover) no-repeat;
+    .power__text1{
+        color: #ffffff;
+        font-family: "Museo Sans Cyrl -700";
+        font-size: 36px;
+        font-weight: 700;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 80px;
+    }
+    &__desc{
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .error{
+        border: 1px solid red;
+    }
+    label.error{
+        color:#ffffff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+}

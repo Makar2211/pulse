@@ -1,0 +1,44 @@
+.button{
+    display: block;
+    margin-left: 5px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: $main-color;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    &:hover{
+        box-shadow: 3px 3px 20px $main-color;
+    }
+    &_main{
+        margin-top: 68px;
+        width: 300px;
+        height: 50px;
+        background-color: $main-color;
+        font-size: 16px;
+    }    
+    &_submit{
+        width: 100%;
+        height: 55px;
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+    }
+    &_mini{
+        width: 131px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: $main-color;
+        border: none;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        &:hover{
+            box-shadow: 3px 3px 20px $main-color;
+        }
+    }
+}

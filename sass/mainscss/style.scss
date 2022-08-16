@@ -1,0 +1,24 @@
+*{
+    font-family:'Museo Sans Cyrl' sans-serif; 
+}
+.container{
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}  
+@import'../mainscss/promo';
+@import'../mainscss/_header';
+@import'../base/mixins';
+@import'../base/variables';
+@import'../blocks/buttons';
+@import'../mainscss/power';
+@import'../mainscss/_consultation';
+@import'../blocks/_form';
+@import'../mainscss/corusel';
+@import'../mainscss/catalog';
+@import'../adapt/_adapt';
+@import'../mainscss/_review';
+@import'../mainscss/footer';
+@import'../mainscss/modal';
+@import'../mainscss/_pageup';
+@import'../base/animation';

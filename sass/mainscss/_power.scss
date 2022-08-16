@@ -1,0 +1,64 @@
+.power{
+    min-height: 470px;
+    background-color: #f6f6f6;
+    padding: 69px 0 81px 0;
+    &__text{
+        color: #0d0d0d;
+        
+        font-size: 30px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+    &__icons{
+        display: flex;
+        justify-content: space-between;
+        
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    .power__icon{
+         margin-top: 65px;
+         h3{
+            margin-top: 38px;
+            margin-bottom: 25px;
+            
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 900;
+            text-align: center;
+         }
+         
+         width: 243px;
+         height: 64px;
+         color: #0d0d0d;
+         font-size: 14px;
+         font-weight: 400;
+         font-style: normal;
+         letter-spacing: normal;
+         line-height: normal;
+         text-align: center;
+         a{
+            color: $main-color;
+            text-transform: uppercase;
+            text-decoration: uderline;
+            &:hover{
+                color: $main-color;
+            } 
+        }
+    }
+    }
+    .power__icons_animate{
+        animation-name: heartbit;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        &:hover{
+            animation-play-state: paused;
+        }
+    }
+
+}
